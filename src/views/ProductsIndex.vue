@@ -6,6 +6,7 @@
       <p>id: {{product.id}}</p>
       <p>Price: ${{product.price}}</p>
       <p>Description: {{product.description}}</p>
+      <router-link v-bind:to="`/products/${product.id}`">More Info</router-link>
     </div>
   </div>
 </template>
